@@ -26,10 +26,10 @@ function calculateMetrics() {
     <div class="card p-3">
       <h4>Results:</h4>
       <ul class="list-group">
-        <li class="list-group-item">EPS: ${eps.toFixed(2)}</li>
-        <li class="list-group-item">P/B Ratio: ${pb.toFixed(2)}</li>
-        <li class="list-group-item">P/E Ratio: ${pe.toFixed(2)}</li>
-        <li class="list-group-item">PEG Ratio: ${peg.toFixed(2)}</li>
+        <li class="list-group-item">Earnings Per Share (EPS): ${eps.toFixed(2)}</li>
+        <li class="list-group-item">Price to Book Ratio (P/B): ${pb.toFixed(2)}</li>
+        <li class="list-group-item">Price to Earnings Ratio (P/E): ${pe.toFixed(2)}</li>
+        <li class="list-group-item">PEG (Price/Earnings to Growth) Ratio: ${peg.toFixed(2)}</li>
       </ul>
     </div>
   `;
