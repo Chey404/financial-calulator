@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-light p-4">
+<body class="p-4">
   <div class="container">
     <h1 class="mb-4 text-center">Financial Metrics Calculator</h1>
     <h5 class="mb-4 text-center">Created by Cheyenne Shokoohi</h5>
@@ -50,13 +50,22 @@
         </svg>
         Calculate
       </button>
-      <button type="reset" class="btn btn-secondary" onclick="clearResults()">
+      <button type="reset" class="btn btn-secondary me-2" onclick="clearResults()">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
           viewBox="0 0 16 16">
           <path
             d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
         </svg>
-        Clear</button>
+        Clear
+      </button>
+      <button type="button" class="btn btn-success" onclick="exportCSV()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download me-1"
+          viewBox="0 0 16 16">
+          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.6a.5.5 0 0 1 1 0v2.6A2 2 0 0 1 14 15H2a2 2 0 0 1-2-2v-2.6a.5.5 0 0 1 .5-.5z" />
+          <path d="M7.646 10.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 9.293V1.5a.5.5 0 0 0-1 0v7.793L5.354 7.146a.5.5 0 1 0-.708.708l3 3z" />
+        </svg>
+        Export CSV
+      </button>
     </div>
 
     <div id="results" class="mt-4"></div>

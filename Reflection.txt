@@ -1,0 +1,10 @@
+For this assignment, I utilized ChatGPT and Copilot. Since I dislike writing HTML from scratch, 
+I prompted ChatGPT to give me an index.html and style.css file that uses Bootstrap and contains 
+all of the required inputs, a submit button, and a clear button. This was very helpful for me
+because it gave me my base input form almost instantly. Then I worked on the script.js and 
+prompted Copilot to take the results from calculateMetrics and put them into a resultsDiv. Overall,
+I found the AI tools to be useful for the frontend code. There were cases that Copilot gave me 
+code that I did not understand such as using 'Blob' for the CSV file data. In the case of that,
+I would prompt Copilot to explain the code to me line by line. I really enjoyed creating the 
+exportCSV function and the error handling in the resultDiv, since those were both learning experiences
+for me.
